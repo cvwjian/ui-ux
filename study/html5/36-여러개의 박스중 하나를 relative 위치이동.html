@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>여러개의 박스중 하나를 relaytive 위치이동</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <style>
+        p{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            line-height: 100px;
+            text-align: center;
+            background-color: yellow;
+            
+        }
+        /*상대위치 지정시 좌표 이동의 기준점은 원래요소가 위치해있던 지점이 기준점이다.
+        */
+        p.posbox{
+          position: relative;  
+          left: 50px;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <p>박스1</p>
+    <p class="posbox">상대위치지정 박스</p>
+    <p>박스3</p>
+    <p>박스4</p>
+    <p>박스5</p>
+    <p>박스6</p>
+</body>
+</html>

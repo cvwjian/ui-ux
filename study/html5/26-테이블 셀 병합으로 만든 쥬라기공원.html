@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 셀 병합으로 만든 쥬라기공원</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <style>
+        #wrap{
+            width: 500px;
+            margin: 0 auto;
+        }
+        table{
+            width: 500px;
+        }
+        h1{
+        font-weight: 800px;
+        text-align: center;
+        }
+        
+        th{
+            width: 40px;
+            height: 40px;
+            
+           border: 1px solid black; 
+        }
+        
+        td{
+            width: 40px;
+            height: 40px;
+           text-align: center;
+           border: 1px solid black; 
+        }
+        
+        h1>td>.1row{
+            width: 40px;
+            height: 40px;
+        }
+        
+        h1>th>.1row{
+            
+        }
+        
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <h1>쥬라기공원 요금표</h1>
+      <table>
+          <tr>
+              <td colspan="3">요금안내</td>
+              
+          </tr>
+          
+          <tr>
+              <th class="1row" scope="col">2-1구분</th>
+              <th scope="col">프리미엄</th>
+              <th>스페셜</th>
+          </tr>
+          
+          <tr>
+              <td class="1row">3-1성인</td>
+              <td>10,000원</td>
+              <td>30,000원</td>
+          </tr>
+          
+          <tr>
+              <td class="1row">4-1청소년</td>
+              <td>5,000원</td>
+              <td>15,000원</td>
+          </tr>
+          
+          <tr>
+              <td class="1row">5-1소인</td>
+              <td colspan="2">초등학생 이하 무조건 3,000원</td>
+              
+          </tr>
+          
+          <tr>
+              <td rowspan="2" class="1row">공연시간</td>
+              <td>오전</td>
+              <td>10시~11시</td>
+          </tr>
+          
+          <tr>
+              
+              <td>오후</td>
+              <td>14시~15시</td>
+          </tr>
+
+      </table>
+      
+       
+       
+       
+</div>
+    
+</body>
+</html>

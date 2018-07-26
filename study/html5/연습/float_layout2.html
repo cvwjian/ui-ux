@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>은지연습</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <style>
+        *{margin: 0; padding: 0;}
+        
+        #wrap{
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        header{
+            width: 958px;
+            height: 98px;
+            margin-bottom: 10px;
+            text-align: center;
+            
+            background-color: gray;
+            border-radius: 10px;
+        }
+        
+        section{*zoom:1;}
+        section>:after{
+            display: block;clear: both;content: '';
+        }
+        
+        section>.lnb{
+            float: left;
+            width: 250px;
+            height: 200px;
+            
+            text-align: center;
+            
+            background-color: blue;
+            border-radius: 10px;
+            
+        }
+
+        section>.cont{
+            
+            float: left;
+            width: 748px;
+            height: 390px;
+            
+            text-align: center;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+        
+            section>.ad{
+            
+            width: 250px;
+            height: 140px;
+            
+            text-align: center;
+            
+            background-color: pink;
+            border-radius: 10px;
+        }
+        
+        footer{
+            
+            height: 98px;
+            text-align: center;
+            background-color: brown;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+   <div id="wrap">
+    <header>
+        <h1>헤더</h1>
+    </header>
+    <section>
+        <article class="lnb">LNB</article>
+        
+        <article class="ad">AD</article>
+    </section>
+    <section>
+    <article class="cont">컨텐츠</article>
+    </section>
+    
+    <footer>
+    <adress>풋터</adress>
+    </footer>
+    
+    </div>
+</body>
+</html>
